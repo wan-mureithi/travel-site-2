@@ -19,7 +19,7 @@ const Hero = () => {
         Traveling should be exciting, not exhausting. That’s why we’re here, to take the stress out of planning and put the joy back into exploring. Whether it’s a concert getaway, a serene retreat, or a customized adventure, we’ll handle the details so you can focus on the fun. Thoughtfully planned, perfectly tailored, and always with your happiness in mind—that’s how we make travel better.
         </p>
 
-        <div className="my-11 flex flex-wrap gap-5">
+        {/* <div className="my-11 flex flex-wrap gap-5">
           <div className="flex items-center gap-2">
             {Array(5).fill(1).map((_, index) => (
               <Image 
@@ -36,19 +36,13 @@ const Hero = () => {
             198k
             <span className="regular-16 lg:regular-20 ml-1">Excellent Reviews</span>
           </p>
-        </div>
+        </div> */}
 
         <div className="flex flex-col w-full gap-3 sm:flex-row">
           <Button 
             type="button" 
-            title="Download App" 
+            title="Get started" 
             variant="btn_green" 
-          />
-          <Button 
-            type="button" 
-            title="How we work?" 
-            icon="/play.svg"
-            variant="btn_white_text" 
           />
         </div>
       </div>
@@ -61,7 +55,7 @@ const Hero = () => {
               <p className="regular-16 text-gray-20">Location</p>
               <Image src="/close.svg" alt="close" width={24} height={24} />
             </div>
-            <p className="bold-20 text-white">Aguas Calientes</p>
+            <p className="bold-20 text-white">Nairobi, Kenya</p>
           </div>
 
           <div className="flexBetween">
@@ -70,8 +64,8 @@ const Hero = () => {
               <p className="bold-20 text-white">173.28 mi</p>
             </div>
             <div className="flex flex-col">
-              <p className="regular-16 block text-gray-20">Elevation</p>
-              <p className="bold-20 text-white">2.040 km</p>
+              <p className="regular-16 block text-gray-20">Population</p>
+              <p className="bold-20 text-white">4,868,000</p>
             </div>
           </div>
         </div>
